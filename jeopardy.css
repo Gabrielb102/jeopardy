@@ -1,0 +1,105 @@
+body {
+  background-color: #060ce9;
+  text-align: center;
+}
+
+.game {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #115ff4;
+  padding: 0 20px 15px 20px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  border: 4px yellow solid;
+  width: 550px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+h2{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#start {
+  margin-top: 275px;
+  background-color: #115ff4;
+  padding: 15px 20px 15px 20px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  border: 4px  solid #115ff4;
+  width: 150px;
+}
+
+#start:hover {
+  background-color: cyan;
+  transition-duration: 80ms;
+}
+
+#loading {
+  margin-top: 200px;
+  display: none;
+}
+
+#game-container {
+  width: 1000px;
+  height: 600px;
+}
+
+table {
+  border: solid 3px black;
+  margin-top: 24px;
+}
+
+td {
+  border: solid 3px black;
+  width: 180px;
+  height: 80px;
+  background-color: #2b40fc;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+td:hover {
+  border: solid 3px white;
+  transition-duration: 100ms;
+}
+
+th {
+  background-color: white;
+  border: solid 3px black;
+  color: black;
+  height: 100px;
+  font-size: 20px;
+}
+
+th:hover {
+  border: solid gold 3px;
+  transition-duration: 100ms;
+}
+
+.question {
+  border: solid 3px gold;
+  font-size: 12px;
+}
+
+.question.answer {
+  border: solid 3px black;
+  font-size: 14px;
+}
+
+/* some colors you may find useful:
+  #115ff4 Blue
+  #060ce9 Darker Blue/Indigo
+  #28a200 Green
+  #8d2ab5 Violet
+  #74119c Darker Purple
+*/
